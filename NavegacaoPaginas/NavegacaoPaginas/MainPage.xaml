@@ -7,10 +7,9 @@
              x:Class="NavegacaoPaginas.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label Text="Welcome to Xamarin.Forms!" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" />
+        <Image Source="marvel" />
+        <Button Text="Próximo" Clicked="Button_ClickedAsync" />
     </StackLayout>
 
 </ContentPage>
